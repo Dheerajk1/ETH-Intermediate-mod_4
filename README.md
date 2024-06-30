@@ -1,5 +1,5 @@
 # ETH-Intermediate-mod_4
-# DegenToken
+## Overview
 
 DegenToken is a Solidity smart contract that implements a custom ERC20 token with additional features for minting, burning, ownership control, and purchasing extra features. It allows users to mint new tokens, burn existing tokens, and purchase additional features defined by the contract owner.
 
