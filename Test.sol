@@ -10,7 +10,7 @@ contract DegenToken is ERC20,Ownable,ERC20Burnable
 
     constructor() ERC20("Dheeraj", "DK") Ownable(msg.sender){}
 
-    function mint(address to, uint256 amount)public onlyOwner   // function for mpnting tokens. 
+    function mint(address to, uint256 amount)public onlyOwner   // function for minting tokens. 
     {
         _mint(to, amount);
     }
